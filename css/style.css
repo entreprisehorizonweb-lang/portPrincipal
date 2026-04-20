@@ -41,8 +41,8 @@ font-style: normal;
   
   .eclipsehero {
     position: absolute;
-    top: -15vw;
-    left: 19vw;
+    top: -15%;
+    left: 8%;
     width: 70vw;
     height: 70vw;
     background: url(../img/hero-light.svg);
@@ -185,7 +185,7 @@ font-style: normal;
     width: 110vw;
     height: 43vw;
     pointer-events: none;
-    background: linear-gradient(to bottom, #07001100 0%, #010103 9%, #633FB6 28%, #4A178D 52%, #826DDE 74%, #000000 100%);
+    background: linear-gradient(to bottom, #07001100 0%, #02020200 9%, #633FB6 28%, #4A178D 52%, #826DDE 74%, #000000 100%);
   }
   
   .services-stage {
@@ -417,7 +417,7 @@ font-style: normal;
   }
 
   .portfolio-img {
-    width: 120px;
+    width: 85%;
     height: 80px;
     border-radius: 12px;
     background: linear-gradient(135deg, #3d1a6e, #1a0030);
@@ -433,8 +433,10 @@ font-style: normal;
 
   .portfolio-tags {
     display: flex;
+    width: 40%;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: space-between;
     gap: 4px;
   }
 
